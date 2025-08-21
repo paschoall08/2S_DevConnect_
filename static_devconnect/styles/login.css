@@ -1,0 +1,59 @@
+main{
+    width: 100%;
+    min-height: 100vh; /*altura da janela do meu dispositivo*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main > div{
+    background-color: #e5e5e5;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* FORMULARIO */
+#formulario{
+   
+    height: 300px;
+    /* background-color: bisque; */
+}
+
+#secao-cadastro{
+    width: 100px;
+    height: 100px;
+    /* background-color: bisque; */
+}
+
+.estilo-formulario{
+    border: var(--borda);
+    width: 100%;
+    max-width: 340px;
+    background-color:#7182a8;
+}
+
+.informacao-aplicativo{
+    background-color: chocolate;
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preto);
+    font-weight: 400;
+}
+
+#secao-instalacao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#secao-instalacao img{
+    width: 120px;
+    height: 39px;
+
+}

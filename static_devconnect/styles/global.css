@@ -1,0 +1,55 @@
+:root{
+    --cor-preto: #000000;
+    --cor-cinza: #e4e4e4e4;
+    --cor-verde-claro: #c1d7ca;
+    --cor-verde: #6a8783;
+    --cor-verde-escuro: #2f4240;
+    --cor-azul: #7182a8;
+
+    --borda: 1px solid var(--cor-cinza);
+    --borda-arredondada: 8px;
+
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+
+}
+
+@font-face{
+    font-family: Lora;
+    src: url(../fonts/Lora/Lora-Italic-VariableFont_wght.ttf),
+    url(../fonts/Lora/Lora-VariableFont_wght.ttf) ;
+
+}
+
+@font-face{
+    font-family: Odor Mean Chey ;
+    src: url(../fonts/Odor_Mean_Chey/OdorMeanChey-Regular.ttf);
+}
+
+/* Seletor Global */
+*{
+    font-family:"Odor Mean Chey";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*o valor total do tamanho do elemento conta tanto com espacos interno/externo e as bordas */
+}
+
+body{
+    background-color: var(--cor-verde);
+
+}
+
+h1{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+/* formulario */
+input{
+    width: 100%;
+    height: 35px;
+    border: var(--borda);
+    background-color: var(--cor-cinza);
+}
